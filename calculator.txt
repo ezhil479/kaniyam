@@ -1,0 +1,39 @@
+while True:
+  print("Simple calculator in Python")
+  print("1. Addition")
+  print("2. Subtraction")
+  print("3. Multiplication")
+  print("4. Division")
+  print("5. Modulus")
+  print("6. Exponentiate")
+  print("7. Break")
+  print('Select option: 1/2/3/4/5/6')
+
+  choice = int(input("Enter choice: "))
+
+  numb1 = int(input("Enter numb1: "))
+  numb2 = int(input("Enter numb2: "))
+
+
+  if choice == 1:
+    result = numb1 + numb2
+    print(result)
+  elif choice == 2:
+    result = numb1 - numb2
+    print(result) 
+  elif choice == 3:
+    result = numb1 * numb2
+    print(result)  
+  elif choice == 4:
+    result = numb1 / numb2
+    print(result)
+  elif choice == 5:
+    result = numb1 % numb2
+    print(result)  
+  elif choice == 6:
+    result = numb1 ** numb2
+    print(result) 
+  elif choice == 7:
+    break  
+  else:
+    print("Option not available")    
